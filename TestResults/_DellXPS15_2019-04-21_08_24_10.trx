@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="ae4ca018-ac7f-45be-ad1a-c80c8ad42805" name="@DellXPS15 2019-04-21 08:24:10" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2019-04-21T08:24:10.9978410+01:00" queuing="2019-04-21T08:24:10.9978411+01:00" start="2019-04-21T08:24:09.4667786+01:00" finish="2019-04-21T08:24:11.0694067+01:00" />
+  <TestSettings name="default" id="aba04bd3-7b39-4409-a12f-49fabb62092d">
+    <Deployment runDeploymentRoot="_DellXPS15_2019-04-21_08_24_10" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="8aa46252-7c88-4bf3-b638-59c66add26cf" testId="8e1c8521-b477-4904-988c-7774b9dd834d" testName="XunitTrx.MemberDataTests.SerializedPropertyTests(a: 1, b: 1)" computerName="DellXPS15" duration="00:00:00.0080000" startTime="2019-04-21T08:24:10.8866267+01:00" endTime="2019-04-21T08:24:10.8866270+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8aa46252-7c88-4bf3-b638-59c66add26cf" />
+    <UnitTestResult executionId="376ebee5-7395-4378-ab75-dbf21f18b0cc" testId="b4dc1dfb-da1f-4ce1-851f-86df5c76c81b" testName="XunitTrx.MemberDataTests.SerializedMethodTests(a: 1, b: 2)" computerName="DellXPS15" duration="00:00:00.0010000" startTime="2019-04-21T08:24:10.9107853+01:00" endTime="2019-04-21T08:24:10.9107856+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="376ebee5-7395-4378-ab75-dbf21f18b0cc">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Equal() Failure
+Expected: 1
+Actual:   2</Message>
+          <StackTrace>   at XunitTrx.MemberDataTests.SerializedMethodTests(Int32 a, Int32 b) in /home/cheng93/Code/XunitTrx/XunitTrx/MemberDataTests.cs:line 37</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ca5a43b6-605d-404c-9aaa-2d751e60541b" testId="a723c940-0eb2-4c87-9dcf-4e98db5c1c2e" testName="XunitTrx.InlineDataTests.MultiParamTests(a: 1, b: 1)" computerName="DellXPS15" duration="00:00:00.0010000" startTime="2019-04-21T08:24:10.9084720+01:00" endTime="2019-04-21T08:24:10.9084723+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca5a43b6-605d-404c-9aaa-2d751e60541b" />
+    <UnitTestResult executionId="a0a66f01-2340-4cd2-a608-baac4e5bbbbd" testId="7ca2be50-4fba-4b7d-a271-9bf0795d4ba4" testName="XunitTrx.FactTests.Test" computerName="DellXPS15" duration="00:00:00.0080000" startTime="2019-04-21T08:24:10.8806844+01:00" endTime="2019-04-21T08:24:10.8806849+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0a66f01-2340-4cd2-a608-baac4e5bbbbd" />
+    <UnitTestResult executionId="662d2b59-bda6-4da0-b633-858533549c1a" testId="a617b9b3-9385-47cd-bca4-535c8bb2a68e" testName="XunitTrx.MemberDataTests.NonSerializedPropertyTests(obj: NonSerializable { A = 1, B = 2 })" computerName="DellXPS15" duration="00:00:00.0010000" startTime="2019-04-21T08:24:10.9720935+01:00" endTime="2019-04-21T08:24:10.9720937+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="662d2b59-bda6-4da0-b633-858533549c1a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Equal() Failure
+Expected: 1
+Actual:   2</Message>
+          <StackTrace>   at XunitTrx.MemberDataTests.NonSerializedPropertyTests(NonSerializable obj) in /home/cheng93/Code/XunitTrx/XunitTrx/MemberDataTests.cs:line 60</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7d1f66a8-9c9e-4018-bdec-4b5218a4914c" testId="78592ce7-94ba-46db-83a9-c92503a47fc9" testName="XunitTrx.InlineDataTests.SingleParamTests(expected: True)" computerName="DellXPS15" duration="00:00:00.0010000" startTime="2019-04-21T08:24:10.9091581+01:00" endTime="2019-04-21T08:24:10.9091583+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d1f66a8-9c9e-4018-bdec-4b5218a4914c" />
+    <UnitTestResult executionId="657fc506-7328-4d69-8c0d-fd227382372b" testId="04dc823e-e3a7-4c45-abb7-c7b2c36795a6" testName="XunitTrx.MemberDataTests.NonSerializedMethodTests(obj: NonSerializable { A = 1, B = 1 })" computerName="DellXPS15" duration="00:00:00.0010000" startTime="2019-04-21T08:24:10.9654550+01:00" endTime="2019-04-21T08:24:10.9654554+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="657fc506-7328-4d69-8c0d-fd227382372b" />
+    <UnitTestResult executionId="7e2eb54f-ac11-44f5-90c6-e8a9271f1c20" testId="52eec94d-636f-4bc6-8f7c-c12d40148738" testName="XunitTrx.InlineDataTests.MultiParamTests(a: 1, b: 2)" computerName="DellXPS15" duration="00:00:00.0130000" startTime="2019-04-21T08:24:10.9071357+01:00" endTime="2019-04-21T08:24:10.9071360+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e2eb54f-ac11-44f5-90c6-e8a9271f1c20">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Equal() Failure
+Expected: 1
+Actual:   2</Message>
+          <StackTrace>   at XunitTrx.InlineDataTests.MultiParamTests(Int32 a, Int32 b) in /home/cheng93/Code/XunitTrx/XunitTrx/InlineDataTests.cs:line 20</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6f62d09c-2c3a-43e4-9b3b-38edbee88175" testId="0f63ef6a-42c0-41c0-ac64-29acae147b36" testName="XunitTrx.MemberDataTests.NonSerializedPropertyTests(obj: NonSerializable { A = 1, B = 1 })" computerName="DellXPS15" duration="00:00:00.0010000" startTime="2019-04-21T08:24:10.9712408+01:00" endTime="2019-04-21T08:24:10.9712410+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f62d09c-2c3a-43e4-9b3b-38edbee88175" />
+    <UnitTestResult executionId="b38d11c7-c8a9-4d59-aa43-f372b32c90f2" testId="5ca171a8-b0a7-4a6f-a0c6-5e3df9422cec" testName="XunitTrx.MemberDataTests.SerializedPropertyTests(a: 1, b: 2)" computerName="DellXPS15" duration="00:00:00.0010000" startTime="2019-04-21T08:24:10.9055058+01:00" endTime="2019-04-21T08:24:10.9055062+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b38d11c7-c8a9-4d59-aa43-f372b32c90f2">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Equal() Failure
+Expected: 1
+Actual:   2</Message>
+          <StackTrace>   at XunitTrx.MemberDataTests.SerializedPropertyTests(Int32 a, Int32 b) in /home/cheng93/Code/XunitTrx/XunitTrx/MemberDataTests.cs:line 52</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bef64c25-a205-4b13-a0ef-6c5078359e95" testId="7a8f250f-5ca2-4b0e-8125-033f025a5c4e" testName="XunitTrx.InlineDataTests.SingleParamTests(expected: False)" computerName="DellXPS15" duration="00:00:00.0010000" startTime="2019-04-21T08:24:10.9126207+01:00" endTime="2019-04-21T08:24:10.9126210+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bef64c25-a205-4b13-a0ef-6c5078359e95">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.True() Failure
+Expected: True
+Actual:   False</Message>
+          <StackTrace>   at XunitTrx.InlineDataTests.SingleParamTests(Boolean expected) in /home/cheng93/Code/XunitTrx/XunitTrx/InlineDataTests.cs:line 12</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bc8586db-301e-4065-9bee-d7c876d65cdc" testId="05be01e0-63b6-42bb-abe3-c9d434fab0e3" testName="XunitTrx.MemberDataTests.SerializedMethodTests(a: 1, b: 1)" computerName="DellXPS15" duration="00:00:00.0010000" startTime="2019-04-21T08:24:10.9111399+01:00" endTime="2019-04-21T08:24:10.9111401+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc8586db-301e-4065-9bee-d7c876d65cdc" />
+    <UnitTestResult executionId="6d231ba4-9f46-40be-bbca-cda8d64ffd3a" testId="4b59e14d-9b2e-42a5-8470-5b92eae760c3" testName="XunitTrx.MemberDataTests.NonSerializedMethodTests(obj: NonSerializable { A = 1, B = 2 })" computerName="DellXPS15" duration="00:00:00.0010000" startTime="2019-04-21T08:24:10.9705624+01:00" endTime="2019-04-21T08:24:10.9705627+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d231ba4-9f46-40be-bbca-cda8d64ffd3a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Equal() Failure
+Expected: 1
+Actual:   2</Message>
+          <StackTrace>   at XunitTrx.MemberDataTests.NonSerializedMethodTests(NonSerializable obj) in /home/cheng93/Code/XunitTrx/XunitTrx/MemberDataTests.cs:line 45</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="XunitTrx.FactTests.Test" storage="/home/cheng93/code/xunittrx/xunittrx/bin/debug/netcoreapp2.2/xunittrx.dll" id="7ca2be50-4fba-4b7d-a271-9bf0795d4ba4">
+      <Execution id="a0a66f01-2340-4cd2-a608-baac4e5bbbbd" />
+      <TestMethod codeBase="/home/cheng93/Code/XunitTrx/XunitTrx/bin/Debug/netcoreapp2.2/XunitTrx.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="XunitTrx" name="XunitTrx.FactTests.Test" />
+    </UnitTest>
+    <UnitTest name="XunitTrx.InlineDataTests.SingleParamTests(expected: False)" storage="/home/cheng93/code/xunittrx/xunittrx/bin/debug/netcoreapp2.2/xunittrx.dll" id="7a8f250f-5ca2-4b0e-8125-033f025a5c4e">
+      <Execution id="bef64c25-a205-4b13-a0ef-6c5078359e95" />
+      <TestMethod codeBase="/home/cheng93/Code/XunitTrx/XunitTrx/bin/Debug/netcoreapp2.2/XunitTrx.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="XunitTrx.InlineDataTests" name="XunitTrx.InlineDataTests.SingleParamTests(expected: False)" />
+    </UnitTest>
+    <UnitTest name="XunitTrx.MemberDataTests.SerializedPropertyTests(a: 1, b: 1)" storage="/home/cheng93/code/xunittrx/xunittrx/bin/debug/netcoreapp2.2/xunittrx.dll" id="8e1c8521-b477-4904-988c-7774b9dd834d">
+      <Execution id="8aa46252-7c88-4bf3-b638-59c66add26cf" />
+      <TestMethod codeBase="/home/cheng93/Code/XunitTrx/XunitTrx/bin/Debug/netcoreapp2.2/XunitTrx.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="XunitTrx.MemberDataTests" name="XunitTrx.MemberDataTests.SerializedPropertyTests(a: 1, b: 1)" />
+    </UnitTest>
+    <UnitTest name="XunitTrx.MemberDataTests.NonSerializedMethodTests(obj: NonSerializable { A = 1, B = 1 })" storage="/home/cheng93/code/xunittrx/xunittrx/bin/debug/netcoreapp2.2/xunittrx.dll" id="04dc823e-e3a7-4c45-abb7-c7b2c36795a6">
+      <Execution id="657fc506-7328-4d69-8c0d-fd227382372b" />
+      <TestMethod codeBase="/home/cheng93/Code/XunitTrx/XunitTrx/bin/Debug/netcoreapp2.2/XunitTrx.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="XunitTrx.MemberDataTests" name="XunitTrx.MemberDataTests.NonSerializedMethodTests(obj: NonSerializable { A = 1, B = 1 })" />
+    </UnitTest>
+    <UnitTest name="XunitTrx.MemberDataTests.NonSerializedPropertyTests(obj: NonSerializable { A = 1, B = 1 })" storage="/home/cheng93/code/xunittrx/xunittrx/bin/debug/netcoreapp2.2/xunittrx.dll" id="0f63ef6a-42c0-41c0-ac64-29acae147b36">
+      <Execution id="6f62d09c-2c3a-43e4-9b3b-38edbee88175" />
+      <TestMethod codeBase="/home/cheng93/Code/XunitTrx/XunitTrx/bin/Debug/netcoreapp2.2/XunitTrx.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="XunitTrx.MemberDataTests" name="XunitTrx.MemberDataTests.NonSerializedPropertyTests(obj: NonSerializable { A = 1, B = 1 })" />
+    </UnitTest>
+    <UnitTest name="XunitTrx.MemberDataTests.SerializedMethodTests(a: 1, b: 2)" storage="/home/cheng93/code/xunittrx/xunittrx/bin/debug/netcoreapp2.2/xunittrx.dll" id="b4dc1dfb-da1f-4ce1-851f-86df5c76c81b">
+      <Execution id="376ebee5-7395-4378-ab75-dbf21f18b0cc" />
+      <TestMethod codeBase="/home/cheng93/Code/XunitTrx/XunitTrx/bin/Debug/netcoreapp2.2/XunitTrx.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="XunitTrx.MemberDataTests" name="XunitTrx.MemberDataTests.SerializedMethodTests(a: 1, b: 2)" />
+    </UnitTest>
+    <UnitTest name="XunitTrx.InlineDataTests.MultiParamTests(a: 1, b: 2)" storage="/home/cheng93/code/xunittrx/xunittrx/bin/debug/netcoreapp2.2/xunittrx.dll" id="52eec94d-636f-4bc6-8f7c-c12d40148738">
+      <Execution id="7e2eb54f-ac11-44f5-90c6-e8a9271f1c20" />
+      <TestMethod codeBase="/home/cheng93/Code/XunitTrx/XunitTrx/bin/Debug/netcoreapp2.2/XunitTrx.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="XunitTrx.InlineDataTests" name="XunitTrx.InlineDataTests.MultiParamTests(a: 1, b: 2)" />
+    </UnitTest>
+    <UnitTest name="XunitTrx.InlineDataTests.SingleParamTests(expected: True)" storage="/home/cheng93/code/xunittrx/xunittrx/bin/debug/netcoreapp2.2/xunittrx.dll" id="78592ce7-94ba-46db-83a9-c92503a47fc9">
+      <Execution id="7d1f66a8-9c9e-4018-bdec-4b5218a4914c" />
+      <TestMethod codeBase="/home/cheng93/Code/XunitTrx/XunitTrx/bin/Debug/netcoreapp2.2/XunitTrx.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="XunitTrx.InlineDataTests" name="XunitTrx.InlineDataTests.SingleParamTests(expected: True)" />
+    </UnitTest>
+    <UnitTest name="XunitTrx.InlineDataTests.MultiParamTests(a: 1, b: 1)" storage="/home/cheng93/code/xunittrx/xunittrx/bin/debug/netcoreapp2.2/xunittrx.dll" id="a723c940-0eb2-4c87-9dcf-4e98db5c1c2e">
+      <Execution id="ca5a43b6-605d-404c-9aaa-2d751e60541b" />
+      <TestMethod codeBase="/home/cheng93/Code/XunitTrx/XunitTrx/bin/Debug/netcoreapp2.2/XunitTrx.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="XunitTrx.InlineDataTests" name="XunitTrx.InlineDataTests.MultiParamTests(a: 1, b: 1)" />
+    </UnitTest>
+    <UnitTest name="XunitTrx.MemberDataTests.SerializedPropertyTests(a: 1, b: 2)" storage="/home/cheng93/code/xunittrx/xunittrx/bin/debug/netcoreapp2.2/xunittrx.dll" id="5ca171a8-b0a7-4a6f-a0c6-5e3df9422cec">
+      <Execution id="b38d11c7-c8a9-4d59-aa43-f372b32c90f2" />
+      <TestMethod codeBase="/home/cheng93/Code/XunitTrx/XunitTrx/bin/Debug/netcoreapp2.2/XunitTrx.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="XunitTrx.MemberDataTests" name="XunitTrx.MemberDataTests.SerializedPropertyTests(a: 1, b: 2)" />
+    </UnitTest>
+    <UnitTest name="XunitTrx.MemberDataTests.NonSerializedMethodTests(obj: NonSerializable { A = 1, B = 2 })" storage="/home/cheng93/code/xunittrx/xunittrx/bin/debug/netcoreapp2.2/xunittrx.dll" id="4b59e14d-9b2e-42a5-8470-5b92eae760c3">
+      <Execution id="6d231ba4-9f46-40be-bbca-cda8d64ffd3a" />
+      <TestMethod codeBase="/home/cheng93/Code/XunitTrx/XunitTrx/bin/Debug/netcoreapp2.2/XunitTrx.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="XunitTrx.MemberDataTests" name="XunitTrx.MemberDataTests.NonSerializedMethodTests(obj: NonSerializable { A = 1, B = 2 })" />
+    </UnitTest>
+    <UnitTest name="XunitTrx.MemberDataTests.SerializedMethodTests(a: 1, b: 1)" storage="/home/cheng93/code/xunittrx/xunittrx/bin/debug/netcoreapp2.2/xunittrx.dll" id="05be01e0-63b6-42bb-abe3-c9d434fab0e3">
+      <Execution id="bc8586db-301e-4065-9bee-d7c876d65cdc" />
+      <TestMethod codeBase="/home/cheng93/Code/XunitTrx/XunitTrx/bin/Debug/netcoreapp2.2/XunitTrx.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="XunitTrx.MemberDataTests" name="XunitTrx.MemberDataTests.SerializedMethodTests(a: 1, b: 1)" />
+    </UnitTest>
+    <UnitTest name="XunitTrx.MemberDataTests.NonSerializedPropertyTests(obj: NonSerializable { A = 1, B = 2 })" storage="/home/cheng93/code/xunittrx/xunittrx/bin/debug/netcoreapp2.2/xunittrx.dll" id="a617b9b3-9385-47cd-bca4-535c8bb2a68e">
+      <Execution id="662d2b59-bda6-4da0-b633-858533549c1a" />
+      <TestMethod codeBase="/home/cheng93/Code/XunitTrx/XunitTrx/bin/Debug/netcoreapp2.2/XunitTrx.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="XunitTrx.MemberDataTests" name="XunitTrx.MemberDataTests.NonSerializedPropertyTests(obj: NonSerializable { A = 1, B = 2 })" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="8e1c8521-b477-4904-988c-7774b9dd834d" executionId="8aa46252-7c88-4bf3-b638-59c66add26cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4dc1dfb-da1f-4ce1-851f-86df5c76c81b" executionId="376ebee5-7395-4378-ab75-dbf21f18b0cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a723c940-0eb2-4c87-9dcf-4e98db5c1c2e" executionId="ca5a43b6-605d-404c-9aaa-2d751e60541b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ca2be50-4fba-4b7d-a271-9bf0795d4ba4" executionId="a0a66f01-2340-4cd2-a608-baac4e5bbbbd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a617b9b3-9385-47cd-bca4-535c8bb2a68e" executionId="662d2b59-bda6-4da0-b633-858533549c1a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78592ce7-94ba-46db-83a9-c92503a47fc9" executionId="7d1f66a8-9c9e-4018-bdec-4b5218a4914c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04dc823e-e3a7-4c45-abb7-c7b2c36795a6" executionId="657fc506-7328-4d69-8c0d-fd227382372b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52eec94d-636f-4bc6-8f7c-c12d40148738" executionId="7e2eb54f-ac11-44f5-90c6-e8a9271f1c20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f63ef6a-42c0-41c0-ac64-29acae147b36" executionId="6f62d09c-2c3a-43e4-9b3b-38edbee88175" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ca171a8-b0a7-4a6f-a0c6-5e3df9422cec" executionId="b38d11c7-c8a9-4d59-aa43-f372b32c90f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a8f250f-5ca2-4b0e-8125-033f025a5c4e" executionId="bef64c25-a205-4b13-a0ef-6c5078359e95" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="05be01e0-63b6-42bb-abe3-c9d434fab0e3" executionId="bc8586db-301e-4065-9bee-d7c876d65cdc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b59e14d-9b2e-42a5-8470-5b92eae760c3" executionId="6d231ba4-9f46-40be-bbca-cda8d64ffd3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="13" executed="13" passed="7" failed="6" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>Logging TestHost Diagnostics in file: /home/cheng93/Code/XunitTrx/TestResults/log.host.19-04-21_08-24-09_48978_5.txt[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.1 (64-bit .NET Core 4.6.27513.05)[xUnit.net 00:00:00.52]   Discovering: XunitTrx[xUnit.net 00:00:00.60]   Discovered:  XunitTrx[xUnit.net 00:00:00.61]   Starting:    XunitTrx[xUnit.net 00:00:00.76]       Assert.Equal() Failure[xUnit.net 00:00:00.76]       Expected: 1[xUnit.net 00:00:00.76]       Actual:   2[xUnit.net 00:00:00.76]       Stack Trace:[xUnit.net 00:00:00.76]         /home/cheng93/Code/XunitTrx/XunitTrx/MemberDataTests.cs(52,0): at XunitTrx.MemberDataTests.SerializedPropertyTests(Int32 a, Int32 b)[xUnit.net 00:00:00.77]       Assert.Equal() Failure[xUnit.net 00:00:00.77]       Expected: 1[xUnit.net 00:00:00.77]       Actual:   2[xUnit.net 00:00:00.77]       Stack Trace:[xUnit.net 00:00:00.77]         /home/cheng93/Code/XunitTrx/XunitTrx/InlineDataTests.cs(20,0): at XunitTrx.InlineDataTests.MultiParamTests(Int32 a, Int32 b)[xUnit.net 00:00:00.77]       Assert.Equal() Failure[xUnit.net 00:00:00.77]       Expected: 1[xUnit.net 00:00:00.77]       Actual:   2[xUnit.net 00:00:00.77]       Stack Trace:[xUnit.net 00:00:00.77]         /home/cheng93/Code/XunitTrx/XunitTrx/MemberDataTests.cs(37,0): at XunitTrx.MemberDataTests.SerializedMethodTests(Int32 a, Int32 b)[xUnit.net 00:00:00.77]       Assert.True() Failure[xUnit.net 00:00:00.77]       Expected: True[xUnit.net 00:00:00.77]       Actual:   False[xUnit.net 00:00:00.77]       Stack Trace:[xUnit.net 00:00:00.77]         /home/cheng93/Code/XunitTrx/XunitTrx/InlineDataTests.cs(12,0): at XunitTrx.InlineDataTests.SingleParamTests(Boolean expected)[xUnit.net 00:00:00.83]       Assert.Equal() Failure[xUnit.net 00:00:00.83]       Expected: 1[xUnit.net 00:00:00.83]       Actual:   2[xUnit.net 00:00:00.83]       Stack Trace:[xUnit.net 00:00:00.83]         /home/cheng93/Code/XunitTrx/XunitTrx/MemberDataTests.cs(45,0): at XunitTrx.MemberDataTests.NonSerializedMethodTests(NonSerializable obj)[xUnit.net 00:00:00.83]       Assert.Equal() Failure[xUnit.net 00:00:00.83]       Expected: 1[xUnit.net 00:00:00.83]       Actual:   2[xUnit.net 00:00:00.83]       Stack Trace:[xUnit.net 00:00:00.83]         /home/cheng93/Code/XunitTrx/XunitTrx/MemberDataTests.cs(60,0): at XunitTrx.MemberDataTests.NonSerializedPropertyTests(NonSerializable obj)[xUnit.net 00:00:00.83]   Finished:    XunitTrx</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="DellXPS15" outcome="Error" timestamp="2019-04-21T08:24:10.8993365+01:00">
+        <Text>[xUnit.net 00:00:00.76]     XunitTrx.MemberDataTests.SerializedPropertyTests(a: 1, b: 2) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="DellXPS15" outcome="Error" timestamp="2019-04-21T08:24:10.9064116+01:00">
+        <Text>[xUnit.net 00:00:00.76]     XunitTrx.InlineDataTests.MultiParamTests(a: 1, b: 2) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="DellXPS15" outcome="Error" timestamp="2019-04-21T08:24:10.9101284+01:00">
+        <Text>[xUnit.net 00:00:00.77]     XunitTrx.MemberDataTests.SerializedMethodTests(a: 1, b: 2) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="DellXPS15" outcome="Error" timestamp="2019-04-21T08:24:10.9120675+01:00">
+        <Text>[xUnit.net 00:00:00.77]     XunitTrx.InlineDataTests.SingleParamTests(expected: False) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="DellXPS15" outcome="Error" timestamp="2019-04-21T08:24:11.0239222+01:00">
+        <Text>[xUnit.net 00:00:00.83]     XunitTrx.MemberDataTests.NonSerializedMethodTests(obj: NonSerializable { A = 1, B = 2 }) [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="DellXPS15" outcome="Error" timestamp="2019-04-21T08:24:11.0240977+01:00">
+        <Text>[xUnit.net 00:00:00.83]     XunitTrx.MemberDataTests.NonSerializedPropertyTests(obj: NonSerializable { A = 1, B = 2 }) [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>
